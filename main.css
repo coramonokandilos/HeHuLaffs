@@ -6,29 +6,37 @@
     border-color: white;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    line-height: 64px;
+    line-height: 40px;
     padding-left: 17px;
     padding-right: 15px;
-    padding-top: 10px;
+    /*padding-top: 10px;*/
     padding-bottom: 10px;
     text-decoration: none;
-    margin-left: 45%;
-    margin-top: 45%;
+    width:8em;
+    height:2em;
+    display:block;
+    margin:45% auto;
+    text-align:center;
+    cursor: pointer;
 
 }
+.gateway-text {
+    display: inline;
+    padding-top: 50%;
+}
 .gateway {
-    background-image: url("hehu2.jpeg");
+    background-image: url("photos/Tunnel_Alone.jpg");
     background-color: #cccccc;
 
     
     
-      /* Set rules to fill background */
-  min-height: 100%;
-  min-width: 1024px;
+      /* Set rules to fill background*/
+  background-size: 100%;
+  background-repeat: no-repeat;
 	
   /* Set up proportionate scaling */
   width: 100%;
-  height: auto;
+  height: 100%;
 	
   /* Set up positioning */
   position: fixed;
@@ -106,3 +114,6 @@ ul {
     color: black;
 }
 
+h1 {
+    text-align: center;
+}
