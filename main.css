@@ -9,7 +9,6 @@
     line-height: 40px;
     padding-left: 17px;
     padding-right: 15px;
-    /*padding-top: 10px;*/
     padding-bottom: 10px;
     text-decoration: none;
     width:8em;
@@ -27,10 +26,8 @@
 .gateway {
     background-image: url("photos/Tunnel_Alone.jpg");
     background-color: #cccccc;
-
     
-    
-      /* Set rules to fill background*/
+  /* Set rules to fill background*/
   background-size: 100%;
   background-repeat: no-repeat;
 	
@@ -44,26 +41,14 @@
   left: 0;
 }
 
-
-
 .header-links {
     padding: 50px;
     letter-spacing: 0.5em;
     text-transform: uppercase;
     font-family: 'Gotham-Medium', "Helvetica Neue", Helvetica, sans-serif;
     text-decoration: none;
-    color:black;
+    color:white;
     font-size: 20px;
-    
-    /*display: block;*/
-    /*width: 120px;*/
-    /*font-weight: bold;*/
-    /*color: #FFFFFF;*/
-    /*background-color: #98bf21;*/
-    /*text-align: center;*/
-    /*padding: 4px;*/
-    /*text-decoration: none;*/
-    /*text-transform: uppercase;*/
 }
 
 ul {
@@ -73,8 +58,6 @@ ul {
     padding: 0;
     overflow: hidden;
 }
-
-
 
 #content {
   position: relative;
@@ -88,32 +71,73 @@ ul {
     height: 100%;
 }
 
-
-
 .footer {
     background-color:black;
     display: block;
-    position: absolute;
     right: 0;
-    bottom: 0;
     left: 0;
     padding: 0.005rem;
-    /*background-color: #efefef;*/
     text-align: center;
+    color: white;
 }
 .footer-icons {
     padding:15px;
-    height:30px;
-    width:30px;
+    height:23px;
+    width:23px;
     color: black;
 }
 .footer-icons-special {
     padding:11px;
-    height:37px;
-    width:37px;
+    height:30px;
+    width:30px;
     color: black;
 }
 
 h1 {
     text-align: center;
+    margin: inherit;
+    letter-spacing: 0.5em;
+    font-size: 30px;
 }
+
+.main-links {
+    padding-top: 10px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.logos {
+    color: black;
+}
+
+.in-thought {
+    height: 25%;
+    width: 25%;
+    padding-top: 0.5%;
+}
+
+.palms {
+    height: 25%;
+    width: 25%;
+}
+
+/*WILL I DELETE THIS MAYBE OK*/
+/*.hands-on-deck {*/
+/*    height: 625px;*/
+/*    width: 600px;*/
+/*    position: relative;*/
+/*    bottom: 305px;*/
+/*    left: 400px;*/
+/*}*/
+
+/*.jeanjacket {*/
+/*    height: 300px;*/
+/*    width:400px;*/
+/*    position: relative;*/
+/*    bottom: 935px;*/
+/*    left:1235px;*/
+/*}*/
+/*.columns {*/
+/*    height: 300px;*/
+/*    width: 400px;*/
+/*}*/
