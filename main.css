@@ -51,6 +51,17 @@
     font-size: 20px;
 }
 
+.header-links1 {
+    padding: 50px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    font-family: times;
+    text-decoration: none;
+    color:black;
+    font-size: 60px;
+    font-weight: lighter;
+}
+
 ul {
     list-style: none;
     text-align: center;
@@ -81,13 +92,15 @@ ul {
     color: white;
 }
 .footer-icons {
-    padding:15px;
+    padding-right:15px;
     height:23px;
     width:23px;
     color: black;
 }
 .footer-icons-special {
-    padding:11px;
+    position: fixed;
+    top: 56px;
+    padding-right:11px;
     height:30px;
     width:30px;
     color: black;
@@ -110,6 +123,24 @@ h1 {
     color: black;
 }
 
+p {
+    font-family: 'Gotham-Medium', "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    width: 25%;
+    padding-left: 470px;
+    padding-top: 50px;
+}
+
+#music {
+    position: relative;
+    right: 30px;
+}
+
+iframe {
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+
 .in-thought {
     height: 25%;
     width: 25%;
@@ -121,23 +152,6 @@ h1 {
     width: 25%;
 }
 
-/*WILL I DELETE THIS MAYBE OK*/
-/*.hands-on-deck {*/
-/*    height: 625px;*/
-/*    width: 600px;*/
-/*    position: relative;*/
-/*    bottom: 305px;*/
-/*    left: 400px;*/
-/*}*/
-
-/*.jeanjacket {*/
-/*    height: 300px;*/
-/*    width:400px;*/
-/*    position: relative;*/
-/*    bottom: 935px;*/
-/*    left:1235px;*/
-/*}*/
-/*.columns {*/
-/*    height: 300px;*/
-/*    width: 400px;*/
-/*}*/
+.social {
+    padding-top: 5px;
+}
