@@ -41,19 +41,39 @@
   left: 0;
 }
 
+/*HEADER*/
+
+.align-name {
+    width: 72.85%;
+    text-align: right;
+}
+
+#contact-buttons { 
+    float: right;
+}
+
+.indiv-buttons {
+    text-decoration:none;
+}
+
+#indiv-soundcloud {
+    width: 36px;
+}
+
+/*Nav Bar at the top of the page*/
 .header-links {
     padding: 50px;
     letter-spacing: 0.5em;
     text-transform: uppercase;
     font-family: 'Gotham-Medium', "Helvetica Neue", Helvetica, sans-serif;
     text-decoration: none;
-    color:white;
-    font-size: 20px;
+    color:black;
+    font-size: 16px;
 }
 
 .header-links1 {
     padding: 50px;
-    letter-spacing: 0.4em;
+    letter-spacing: 0.2em;
     text-transform: uppercase;
     font-family: times;
     text-decoration: none;
@@ -70,42 +90,6 @@ ul {
     overflow: hidden;
 }
 
-#content {
-  position: relative;
-  margin: 0;
-  min-height: 100%;
-}
-
-.soundcloud {
-    float: left;
-    width: 100%;
-    height: 100%;
-}
-
-.footer {
-    background-color:black;
-    display: block;
-    right: 0;
-    left: 0;
-    padding: 0.005rem;
-    text-align: center;
-    color: white;
-}
-.footer-icons {
-    padding-right:15px;
-    height:23px;
-    width:23px;
-    color: black;
-}
-.footer-icons-special {
-    position: fixed;
-    top: 56px;
-    padding-right:11px;
-    height:30px;
-    width:30px;
-    color: black;
-}
-
 h1 {
     text-align: center;
     margin: inherit;
@@ -114,44 +98,55 @@ h1 {
 }
 
 .main-links {
-    padding-top: 10px;
+    padding-top: 5px;
     color: white;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
 }
 
-.logos {
-    color: black;
-}
-
-p {
-    font-family: 'Gotham-Medium', "Helvetica Neue", Helvetica, sans-serif;
-    text-align: center;
-    width: 25%;
-    padding-left: 470px;
-    padding-top: 50px;
-}
-
-#music {
-    position: relative;
-    right: 30px;
-}
-
-iframe {
-    padding-left: 100px;
-    padding-bottom: 20px;
+/*Home Pictures*/
+.home-photos {
+    background-image: url("photos/HeadintheCloudsWebsite3.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .in-thought {
-    height: 25%;
-    width: 25%;
-    padding-top: 0.5%;
+    height: 75%;
+    width: 75%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
-.palms {
-    height: 25%;
-    width: 25%;
+/*Music format*/
+iframe {
+    padding-bottom: 2%;
 }
 
-.social {
-    padding-top: 5px;
+.soundcloud-music {
+    text-align: center;
 }
+
+/*Video Page*/
+.music-videos {
+    text-align:center;
+}
+
+/*About page words*/
+.about-quote {
+    /*font: 62.5%/1.2em "Roboto";*/
+    color: #333333;
+    /*font-family: 'Inconsolata', ;*/
+    /*font-family: 'Poiret One', cursive;*/
+    font-weight: 300;
+    font-size: 30px;
+    font-family: 'Gotham-Medium', "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+
+
+
+
