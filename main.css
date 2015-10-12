@@ -27,25 +27,27 @@
     background-image: url("photos/Tunnel_Alone.jpg");
     background-color: #cccccc;
     
-  /* Set rules to fill background*/
-  background-size: 100%;
-  background-repeat: no-repeat;
+    /* Set rules to fill background*/
+    background-size: 100%;
+    background-repeat: no-repeat;
 	
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: 100%;
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: 100%;
 	
-  /* Set up positioning */
-  position: fixed;
-  top: 0;
-  left: 0;
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 /*HEADER*/
+.space-consumer, .contact-buttons-all {
+    width:25%;
+}
 
 .align-name {
-    width: 72.85%;
-    text-align: right;
+    text-align: center;
 }
 
 #contact-buttons { 
@@ -53,6 +55,7 @@
 }
 
 .indiv-buttons {
+    position:relative;
     text-decoration:none;
 }
 
@@ -72,7 +75,6 @@
 }
 
 .header-links1 {
-    padding: 50px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     font-family: times;
@@ -103,11 +105,18 @@ h1 {
     padding-bottom: 15px;
 }
 
+/*BODY BACKGROUND COLOR*/
+.background-color {
+    background: #DFE0E2;
+}
+
 /*Home Pictures*/
 .home-photos {
     background-image: url("photos/HeadintheCloudsWebsite3.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+    height:100%;
+    /*width:100%;*/
 }
 
 .in-thought {
@@ -119,7 +128,7 @@ h1 {
 
 /*Music format*/
 iframe {
-    padding-bottom: 2%;
+    padding-bottom: 7%;
 }
 
 .soundcloud-music {
@@ -133,19 +142,26 @@ iframe {
 
 /*About page words*/
 .about-quote {
-    /*font: 62.5%/1.2em "Roboto";*/
     color: #333333;
-    /*font-family: 'Inconsolata', ;*/
-    /*font-family: 'Poiret One', cursive;*/
     font-weight: 300;
     font-size: 30px;
     font-family: 'Gotham-Medium', "Helvetica Neue", Helvetica, sans-serif;
     text-align: center;
     width: 55%;
     margin: 0 auto;
-    padding-top: 5%;
+    padding-top: 4%;
 }
 
+.bio {
+    color: #333333;
+    font-weight: 300;
+    font-size: 23px;
+    font-family: 'Gotham-Medium', "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+    padding-top: 5%;
+}
 
 
 
