@@ -155,12 +155,13 @@ iframe {
 .bio {
     color: #333333;
     font-weight: 300;
-    font-size: 23px;
+    font-size: 30px;
     font-family: 'Gotham-Medium', "Helvetica Neue", Helvetica, sans-serif;
     text-align: center;
     width: 55%;
     margin: 0 auto;
     padding-top: 5%;
+    line-height: 140%;
 }
 
 
