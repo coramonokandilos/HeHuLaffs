@@ -112,18 +112,19 @@ h1 {
 
 /*Home Pictures*/
 .home-photos {
-    background-image: url("photos/HeadintheCloudsWebsite3.jpg");
+    background-image: url("photos/HeadintheCloudsWebsite.jpg");
     background-size: 100%;
-    background-repeat: no-repeat;
-    height:100%;
+    /*background-repeat: no-repeat;*/
+    height:50%;
     /*width:100%;*/
 }
 
 .in-thought {
-    height: 75%;
-    width: 75%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    /*height: 75%;*/
+    /*width: 75%;*/
+    /*padding-top: 2%;*/
+    /*padding-bottom: 2%;*/
+
 }
 
 /*Music format*/
@@ -134,9 +135,13 @@ iframe {
 .soundcloud-music {
     text-align: center;
 }
+.soundcloud-placement {
+    padding-top:4%;
+}
 
 /*Video Page*/
 .music-videos {
+    padding-top:4%;
     text-align:center;
 }
 
