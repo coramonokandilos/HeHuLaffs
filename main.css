@@ -112,11 +112,22 @@ h1 {
 
 /*Home Pictures*/
 .home-photos {
-    background-image: url("photos/HeadintheCloudsWebsite.jpg");
+    background-image: url("photos/HeadintheCloudsWebsite3.jpg");
+    background-color: #cccccc;
+    
+     /*Set rules to fill background*/
     background-size: 100%;
-    /*background-repeat: no-repeat;*/
-    height:50%;
-    /*width:100%;*/
+    background-repeat: no-repeat;
+	
+     /*Set up proportionate scaling */
+    width: 100%;
+    max-height: 100%;
+	
+     /*Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+
 }
 
 .in-thought {
