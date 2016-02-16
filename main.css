@@ -59,7 +59,7 @@
     text-decoration:none;
 }
 
-#indiv-soundcloud {
+#indiv-soundcloud, #indiv-facebook, #indiv-twitter, #indiv-youtube {
     width: 36px;
 }
 
@@ -105,6 +105,7 @@ h1 {
     padding-bottom: 15px;
 }
 
+
 /*BODY BACKGROUND COLOR*/
 .background-color {
     background: #DFE0E2;
@@ -120,13 +121,13 @@ h1 {
     background-repeat: no-repeat;
 	
      /*Set up proportionate scaling */
-    width: 100%;
+/*    width: 100%;*/
     max-height: 100%;
 	
      /*Set up positioning */
-    position: fixed;
+/*    position: fixed;
     top: 0;
-    left: 0;
+    left: 0;*/
 
 }
 
